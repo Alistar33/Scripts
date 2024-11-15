@@ -23,11 +23,11 @@ default
         { 
             if (info & AGENT_ATTACHMENTS) 
             { 
-                llSay(0,"AGENT_ATTACHMENTS started"); 
+                llOwnerSay("AGENT_ATTACHMENTS started"); 
             } 
             else 
             { 
-                llSay(0,"AGENT_ATTACHMENTS ended"); 
+                llOwnerSay("AGENT_ATTACHMENTS ended"); 
             } 
         }
 
@@ -35,11 +35,11 @@ default
         {
             if (info & AGENT_AWAY) 
             { 
-                llSay(0,"AGENT_AWAY started"); 
+                llOwnerSay("AGENT_AWAY started"); 
             } 
             else 
             { 
-                llSay(0,"AGENT_AWAY ended"); 
+                llOwnerSay("AGENT_AWAY ended"); 
             } 
         } 
 
@@ -47,23 +47,23 @@ default
         { 
             if (info & AGENT_FLYING) 
             { 
-                llSay(0,"AGENT_FLYING started"); 
+                llOwnerSay("AGENT_FLYING started"); 
             } 
             else 
             { 
-                llSay(0,"AGENT_FLYING ended"); 
+                llOwnerSay("AGENT_FLYING ended"); 
             } 
         } 
-
+        
          if (diffinfo & AGENT_HOVERING) 
         { 
             if (info & AGENT_HOVERING) 
             { 
-                llSay(0,"AGENT_HOVERING started"); 
+               llOwnerSay("AGENT_HOVERING started"); 
             } 
             else 
             { 
-                llSay(0,"AGENT_HOVERING ended"); 
+               llOwnerSay("AGENT_HOVERING ended"); 
             } 
         } 
 
@@ -71,11 +71,11 @@ default
         { 
             if (info & AGENT_MOUSELOOK) 
             { 
-                llSay(0,"AGENT_MOUSELOOK started"); 
+                llOwnerSay("AGENT_MOUSELOOK started"); 
             } 
             else 
             { 
-                llSay(0,"AGENT_MOUSELOOK ended"); 
+                llOwnerSay("AGENT_MOUSELOOK ended"); 
             } 
         } 
 
@@ -83,11 +83,11 @@ default
             { 
             if (info & AGENT_WALKING) 
             { 
-                llSay(0,"AGENT_WALKING started"); 
+                llOwnerSay("AGENT_WALKING started"); 
             } 
             else 
             { 
-                llSay(0,"AGENT_WALKING ended"); 
+                llOwnerSay("AGENT_WALKING ended"); 
             } 
         } 
 
@@ -95,11 +95,11 @@ default
         { 
             if (info & AGENT_SCRIPTED) 
             { 
-                llSay(0,"AGENT_SCRIPTED started"); 
+                llOwnerSay("AGENT_SCRIPTED started"); 
             } 
             else 
             { 
-                llSay(0,"AGENT_SCRIPTED ended"); 
+                llOwnerSay("AGENT_SCRIPTED ended"); 
             } 
         } 
 
@@ -107,11 +107,11 @@ default
         { 
             if (info & AGENT_SITTING) 
             { 
-                llSay(0,"AGENT_SITTING started"); 
+                llOwnerSay("AGENT_SITTING started"); 
             } 
             else 
             { 
-                llSay(0,"AGENT_SITTING ended"); 
+                llOwnerSay("AGENT_SITTING ended"); 
             } 
         } 
 
@@ -119,11 +119,11 @@ default
         { 
             if (info & AGENT_ON_OBJECT) 
             { 
-                llSay(0,"AGENT_ON_OBJECT started"); 
+                llOwnerSay("AGENT_ON_OBJECT started"); 
             } 
             else 
             { 
-                llSay(0,"AGENT_ON_OBJECT ended"); 
+                llOwnerSay("AGENT_ON_OBJECT ended"); 
             } 
         } 
 
@@ -131,11 +131,11 @@ default
         { 
             if (info & AGENT_IN_AIR) 
             { 
-                llSay(0,"AGENT_IN_AIR started"); 
+                llOwnerSay("AGENT_IN_AIR started"); 
             } 
             else 
             { 
-                llSay(0,"AGENT_IN_AIR ended"); 
+                llOwnerSay("AGENT_IN_AIR ended"); 
             } 
         } 
 
@@ -143,11 +143,11 @@ default
         { 
             if (info & AGENT_TYPING) 
             { 
-                llSay(0,"AGENT_TYPING started"); 
+                llOwnerSay("AGENT_TYPING started"); 
             } 
             else 
             { 
-                llSay(0,"AGENT_TYPING ended"); 
+                llOwnerSay("AGENT_TYPING ended"); 
             } 
         } 
 
@@ -155,11 +155,11 @@ default
         { 
             if (info & AGENT_CROUCHING) 
             { 
-                llSay(0,"AGENT_CROUCHING started"); 
+                llOwnerSay("AGENT_CROUCHING started"); 
             } 
             else 
             { 
-                llSay(0,"AGENT_CROUCHING ended"); 
+                llOwnerSay("AGENT_CROUCHING ended"); 
             } 
         } 
 
@@ -167,11 +167,11 @@ default
         { 
             if (info & AGENT_BUSY) 
             { 
-                llSay(0,"AGENT_BUSY started"); 
+                llOwnerSay("AGENT_BUSY started"); 
             } 
             else 
             { 
-                llSay(0,"AGENT_BUSY ended"); 
+                llOwnerSay("AGENT_BUSY ended"); 
             } 
         } 
 
@@ -179,11 +179,11 @@ default
         { 
             if (info & AGENT_ALWAYS_RUN) 
             { 
-                llSay(0,"AGENT_ALWAYS_RUN started"); 
+                llOwnerSay("AGENT_ALWAYS_RUN started"); 
             } 
             else 
             { 
-                llSay(0,"AGENT_ALWAYS_RUN ended"); 
+                llOwnerSay("AGENT_ALWAYS_RUN ended"); 
             } 
         } 
     } 
