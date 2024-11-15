@@ -55,6 +55,18 @@ default
             } 
         } 
 
+         if (diffinfo & AGENT_HOVERING) 
+        { 
+            if (info & AGENT_HOVERING) 
+            { 
+                llSay(0,"AGENT_HOVERING started"); 
+            } 
+            else 
+            { 
+                llSay(0,"AGENT_HOVERING ended"); 
+            } 
+        } 
+
         if (diffinfo & AGENT_MOUSELOOK) 
         { 
             if (info & AGENT_MOUSELOOK) 
