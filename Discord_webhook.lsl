@@ -48,7 +48,7 @@ key PostToDiscord(key AvatarID, string Message)
                     llList2Json(JSON_OBJECT,
                     [
                             "color", "100000",
-                            "title", user + "'s Location ( click for SLURL )",
+                            title", user + "'s Location (click for SLURL)",
                             "url", SLURL,
                             "description",  "\n" + user_name + "'s Profile: http://my.secondlife.com/" +
                              llGetUsername(AvatarID) +  "\nMessage from " + user_name + ": \n \n" + Message + "\n \n.",
