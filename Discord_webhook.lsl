@@ -124,11 +124,5 @@ default
        PostToDiscord( id, message ); 
        llPlaySound( sound , 0.25);       
        llRegionSayTo( id, 0, "\nMessage has been sent to your Discord Server....");
-    }   
-    http_response(key request_id, integer status, list metadata, string body)
-    { 
-    }
-    timer()
-    {      
-    }    
+    }     
 }
